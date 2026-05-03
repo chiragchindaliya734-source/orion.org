@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptVault</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #020617;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #020617;
+      padding-bottom: 10px;
+    }
+    nav a {
+      color: #94a3b8;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+    }
+    .hero p {
+      color: #94a3b8;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #3b82f6;
+      color: white;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>PromptVault 🚀</header>
+<nav>
+  <a href="#">Home</a>
+  <a href="#prompts">Prompts</a>
+  <a href="#about">About</a>
+</nav>
+
+<div class="hero">
+  <h1>Best AI Prompts in One Place</h1>
+  <p>Explore powerful prompts for ChatGPT, coding, design & more</p>
+  <button onclick="scrollToPrompts()">Explore Prompts</button>
+</div>
+
+<div class="section" id="prompts">
+  <h2>🔥 Trending Prompts</h2>
+
+  <div class="card">
+    <h3>Coding Assistant</h3>
+    <p>"Act as a senior developer and debug my code step by step..."</p>
+  </div>
+
+  <div class="card">
+    <h3>Study Helper</h3>
+    <p>"Explain this topic like I'm 10 years old with examples..."</p>
+  </div>
+
+  <div class="card">
+    <h3>Design Ideas</h3>
+    <p>"Generate modern UI ideas for a futuristic app..."</p>
+  </div>
+
+</div>
+
+<div class="section" id="about">
+  <h2>About</h2>
+  <p>This website provides the best curated prompts to boost productivity and creativity.</p>
+</div>
+
+<footer>
+  © 2026 PromptVault | Made by You
+</footer>
+
+<script>
+function scrollToPrompts() {
+  document.getElementById('prompts').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
